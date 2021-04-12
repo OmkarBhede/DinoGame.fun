@@ -1,0 +1,58 @@
+* {
+  padding: 20;
+  margin: 20;
+}
+#score {
+  position: relative;
+  left: 480px;
+  top: -100px;
+}
+
+#game {
+  height: 400px;
+  width: 600px;
+  border: 1px solid black;
+}
+
+#dino {
+  height: 80px;
+  width: 30px;
+  background-color: red;
+  position: relative;
+  top: 320px;
+}
+#cactus {
+  height: 30px;
+  width: 30px;
+  background-color: blue;
+  position: relative;
+  top: 290px;
+  left: 570px;
+  animation: block 1s infinite linear;
+}
+
+@keyframes block {
+  0% {
+    left: 570px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+.animate {
+  animation: jump 500ms infinite ease-out;
+}
+@keyframes jump {
+  0% {
+    top: 320px;
+  }
+  45% {
+    top: 250px;
+  }
+  65% {
+    top: 250px;
+  }
+  100% {
+    top: 320px;
+  }
+}
