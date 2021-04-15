@@ -23,7 +23,7 @@ var computeCollision = setInterval(function () {
   if (cactusLeft < 30 && cactusLeft > 0 && dinoTop >= 280) {
     cactus.style.animation = "none";
     cactus.style.display = "none";
-    alert("Arrrr. Try Again " + "[ score : " + scorecalc() + " ]")
+    alert("Arrrr. Try Again " + "[ New score : " + scorecalc() + " ]")
       ? ""
       : location.reload();
   }
