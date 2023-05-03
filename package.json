@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OmkarBhede/Dino-Game.git"
+    "url": "git+https://github.com/OmkarBhede/DinoGame.fun"
   },
-  "author": "",
+  "author": "Omkar Bhede",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/OmkarBhede/Dino-Game/issues"
+    "url": "https://github.com/OmkarBhede/DinoGame.fun/issues"
   },
-  "homepage": "https://github.com/OmkarBhede/Dino-Game#readme",
+  "homepage": "https://github.com/OmkarBhede/DinoGame.fun#readme",
   "dependencies": {
     "lodash": "^4.17.21"
   }
